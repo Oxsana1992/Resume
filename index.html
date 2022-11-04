@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html, course, css, tags, resume" />
+    <meta
+      name="description"
+      content="Это сайт - резюмэ, на котором представленны базовые умения"
+    />
+    <title>Resume</title>
+    <!-- <link rel="stylesheet" href="style/style.css" /> -->
+    <link rel="stylesheet" href="style/styles.css" />
+    <link rel="stylesheet" href="style/media.css">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="info">
+          <div class="info-bx">
+            <div class="row">
+              <img src="image/avtar.jpg" alt="Место для аватарки" />
+            </div>
+          </div>
+          <div class="info-bx">
+            <div class="row"><h1>Оксана Евгеньевна Л.</h1></div>
+            <div class="row"><h2>Обо мне</h2></div>
+            <div class="row">
+              <p>Я начинающий <strong>Веб-разработчик</strong>.</p>
+              <p>
+                Помимо <strong><em>разработки сайтов</em></strong> мне нравится
+                многие вещи, например, читать и переводить веб-романы, изучать
+                что-то новое и находить себе разные хобби.
+              </p>
+            </div>
+            <div class="row">
+              <div id="links"><h4>Список социальных сетей</h4></div>
+              <div id="links">
+                <a href="https://vk.com/club199252986" target="_blank"
+                  >Вконтакте</a
+                >
+                |
+                <a
+                  href="https://www.litres.ru/author/oksana-loksha/"
+                  target="_blank"
+                  >LitRes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <article id="block b2">
+          <div class="row"><h2>Мои хобби</h2></div>
+          <div class="row">
+            <div>
+              <p>
+                Меня называют творческой и разносторонней личностью, ведь в
+                коллекции моих навыков и хобби собрались такие, как:
+              </p>
+            </div>
+            <div class="row lists">
+              <ul>
+                <li>
+                  Создание картин маслом. Некоторые мои работы выставлены в
+                  крупном университете города Воронежа.
+                </li>
+                <li>
+                  Создание современных романов в жанре романтика. Готовые работы
+                  можно найти в общем доступе на сайте litres.
+                </li>
+                <li>
+                  Подготовка и публикация переводов веб-новелл на русский язык.
+                  Более 250 глав опубликовано в открытой группе Вконтакте.
+                </li>
+                <li>
+                  Коллекционирование монет. Рукоделие. Кулинария. Садоводство и
+                  многое другое.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article id="block b3">
+          <div class="row"><h2>Опыт работы</h2></div>
+
+          <div class="row">
+            <table class="table">
+              <thead>
+                <tr>
+                  <td>Место работы</td>
+                  <td>Должность</td>
+                  <td>Период работы</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ВГПГК</td>
+                  <td>Техник</td>
+                  <td>2010-2011</td>
+                </tr>
+                <tr>
+                  <td>ВГУ</td>
+                  <td>Техник 1 категории</td>
+                  <td>2014-2017</td>
+                </tr>
+                <tr>
+                  <td>ВЗПП-Микрон</td>
+                  <td>Инженер, Мастер-технолог</td>
+                  <td>2017-по настоящее время</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article id="block b4">
+          <div class="row"><h2>Список курсов</h2></div>
+
+          <div id="courses" class="row lists">
+            <ol>
+              <li id="links">
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                Оператор ЭВМ со знанием oбъектно-ориентированного программирования
+                </a>
+              </li>
+              <li id="links">
+                <a
+                  href="https://www.coursera.org/learn/html-css-javascript-for-web-developers/home/welcome"
+                  target="_blank"
+                >
+                  HTML, CSS, and Javascript for Web Developers
+                </a>
+              </li>
+              <li id="links">
+                <a
+                  href="https://result.school/products/html-css"
+                  target="_blank"
+                >
+                  HTML&CSS первый шаг для начинающих в IT
+                </a>
+              </li>
+            </ol>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="row"><h2>Связаться co мной</h2></div>
+
+        <div class="row">
+          <form>
+            <div class="forms-row">
+              <div class="forms-bx">
+                <label for="text">Ваше имя:</label>
+                <input type="text" id="text" placeholder="Введите ваше имя" />
+              </div>
+
+              <div class="forms-bx">
+                <label for="email">Ваш email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Введите ваш email"
+                />
+              </div>
+            </div>
+
+            <div class="forms-bx">
+              <label for="message">Ваше сообщение:</label>
+              <textarea
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Введите сообщение ..."
+              ></textarea>
+            </div>
+            <div class="forms">
+              <button class="btn" type="submit">Отправить!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
