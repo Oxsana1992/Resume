@@ -110,6 +110,9 @@ tr, td, th {
 }
 
 .footer__row-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
 
   columns: 2;
@@ -120,8 +123,15 @@ tr, td, th {
     width: 30px;
 }
 
-.footer__text-mail {
-  width: 300px;
+.footer__row-bar-left {
+  display: flex;
+  align-items: left;
+  justify-content: left; 
+  padding: 15px;
+}
+
+.footer__text-mail div {
+  width: 280px;
 }
 }
 

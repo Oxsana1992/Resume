@@ -70,7 +70,7 @@ body.light {
 }
 
 .item__avatar-img {
-    background: url(/myresume/src/img/IMG_20221218_231540.jpg);
+    background: url(../img/IMG_20221218_231540.jpg);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -127,6 +127,12 @@ tr, td, th {
     background-position: center;
 }
 
-.footer__text-mail {
-    text-align: center;
+.footer__text-mail div {
+    padding-left: 35px;
+}
+
+.button__email {
+    background: center / contain no-repeat  url(https://cdn-icons-png.flaticon.com/512/4347/4347575.png);
+    background-size: 70%;
+    background-position: center;
 }
