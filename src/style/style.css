@@ -14,10 +14,6 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-body.light {
-    background-color: rgb(255, 247, 234);
-}
-
 /* Header styles */
 
 .header {
@@ -28,6 +24,10 @@ body.light {
 
     background: rgba(31, 198, 213, 0.75);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.navbar {
+    padding: 3px;
 }
 
 .navbar:hover {
@@ -82,51 +82,15 @@ a.navbar-brand.header__logo-text:hover {
 }
 
 /* Search */
-form{
-    position: relative;
-    top: 10%;
-    left: 350%;
-    transform: translate(-50%);
-    transition: all 1s;
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    border-radius: 20px;
-    padding: 5px;
-}
-
-input{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;;
-    height: 42.5px;
-    line-height: 40px;
-    outline: 0;
-    border: 0;
-    display: none;
-    font-size: 1em;
-    border-radius: 20px;
-    padding: 0 20px;
+input {
+    color: rgba(31, 198, 213);
 }
 
 .fa{
-    box-sizing: border-box;
-    padding: 10px;
-    width: 42.5px;
-    height: 42.5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 50%;
     color: #ffd900cc;
-    text-align: center;
-    font-size: 1.2em;
-    transition: all 1s;
 }
 
 form:hover{
-    width: 200px;
     cursor: pointer;
 }
 

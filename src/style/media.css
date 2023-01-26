@@ -1,14 +1,13 @@
 /**** Large divices only ****/
 @media (min-width: 1200px) {
 body {
-    width: 100%;
+  width: 100%;
 }
 
 .header__bar {
   width: 10%;
   margin: 0 42px;
 }
-
 
 .header__logo, .header__nav {
   padding: 0 10px;
@@ -24,21 +23,75 @@ body {
   height: 30px;
 }
 
-.container {
-  width: 100%;
-  margin: auto;
-  margin-top: 25px 0;
+/* Search */
+form{
+  position: relative;
+  top: 10%;
+  left: 350%;
+  transform: translate(-50%);
+  transition: all 1s;
+  width: 30.5px;
+  height: 30.5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 5px;
 }
 
-.container .row {
-  margin: 10px;
-  padding: 10px;
-  }
+input{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;;
+  height: 30.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 40px 0 20px;
+}
+
+.fa{
+  box-sizing: border-box;
+  padding: 5px;
+  width: 30.5px;
+  height: 30.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 1em;
+  transition: all 1s;
+}
+
+form:hover{
+  width: 200px;
+}
+
+/*  container  */
+
+.container {
+  width: 100%;
+  padding-top: 60px;
+}
 
 .column {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 20px;
+}
+
+.item {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div.item.work {
+  width: 100%;
 }
 
 .item__description {
@@ -48,7 +101,11 @@ body {
 .item__description-text {
   font-size: 24px;
   line-height: 24px;
-  padding: 0 25px;
+  padding: 25px;
+}
+
+.item__description-text h2 {
+  padding-top: 25px;
 }
 
 .item__avatar {
@@ -80,13 +137,6 @@ h1, h2, h3 {
 p,
 li {
   line-height: 25px;
-}
-
-.item {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 
 tr, td, th {
