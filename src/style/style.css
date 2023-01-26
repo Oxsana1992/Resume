@@ -70,11 +70,6 @@ body {
     padding: 10px 15px;
 }
 
-a.nav-link {
-    text-align: right;
-    padding-right: 100px;
-}
-
 a.navbar-brand.header__logo-text:hover {
     text-shadow: 0 2px 2px #ffd900cc;
 
@@ -165,7 +160,7 @@ tr, td, th {
 
 th {
     text-align: center;
-}
+} 
 
 .footer {
     background: rgba(31, 198, 213, 0.75);
