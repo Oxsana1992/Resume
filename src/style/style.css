@@ -139,6 +139,9 @@ li {
 .item {
     background: rgb(255, 247, 234, 0.75);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .item__header {
@@ -160,9 +163,19 @@ tr, td, th {
     vertical-align: top;
 }
 
+th {
+    text-align: center;
+}
+
 .footer {
     background: rgba(31, 198, 213, 0.75);
     box-shadow: 4px 0 8px rgba(0, 0, 0, 0.15);
+}
+
+.button__github {
+    background: center / contain no-repeat  url(https://cdn-icons-png.flaticon.com/512/1240/1240971.png);
+    background-size: 70%;
+    background-position: center;
 }
 
 .button__telega {
@@ -177,12 +190,12 @@ tr, td, th {
     background-position: center;
 }
 
-.footer__text-mail div {
-    padding-left: 35px;
-}
-
 .button__email {
     background: center / contain no-repeat  url(https://cdn-icons-png.flaticon.com/512/4347/4347575.png);
     background-size: 70%;
     background-position: center;
+}
+
+button.button__email {
+    cursor: default;
 }

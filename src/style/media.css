@@ -178,12 +178,199 @@ tr, td, th {
 
 .footer__text-mail div {
   width: 280px;
+  padding-left: 35px;
 }
 }
 
 /**** Medium divices only ****/
 @media (min-width: 992px) and (max-width: 1199px) {
-
+  body {
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .header__bar {
+    width: 10%;
+    margin: 0 40px;
+  }
+  
+  .header__logo, .header__nav {
+    padding: 0 5px;
+  }
+  
+  .header__logo-text {  
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .nav-button {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Search */
+  form{
+    position: relative;
+    top: 10%;
+    left: 300%;
+    transform: translate(-50%);
+    transition: all 1s;
+    width: 25.5px;
+    height: 25.5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 25.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 15px;
+    padding: 0 40px 0 20px;
+  }
+  
+  .fa{
+    box-sizing: border-box;
+    padding: 5px;
+    width: 25.5px;
+    height: 25.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1em;
+    transition: all 1s;
+  }
+  
+  form:hover{
+    width: 200px;
+  }
+  
+  /*  container  */
+  
+  .container {
+    width: 100%;
+    padding-top: 58px;
+  }
+  
+  .column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    align-items: center;
+  }
+  
+  .item {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  div.item.work {
+    width: 100%;
+  }
+  
+  .item__description {
+    height: 350px;
+  }
+  
+  .item__description-text {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 5px;
+  }
+  
+  .item__description-text h2 {
+    padding-top: 20px;
+  }
+  
+  .item__avatar {
+    position: relative;
+    height: 350px;
+  }
+  
+  .item__avatar-pic {
+    width: 300px;
+    height: 314px;
+  
+    position: relative;
+    left: 85px;
+  }
+  
+  .item__avatar-img {
+    width: 300px;
+    height: 326px;
+  
+    position: relative;
+    left: 50px;
+    top: -280px;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  p,
+  li {
+    line-height: 25px;
+  }
+  
+  tr, td, th {
+    padding: 5px;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .footer__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+  
+    margin: 0 30%;
+  }
+  
+  .footer__row-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+  
+    columns: 2;
+    column-gap: 15px;
+  }
+  
+  .footer__row-icon {
+      width: auto;
+      height: 25px;
+  }
+  
+  .footer__row-bar-left {
+    display: flex;
+    align-items: left;
+    justify-content: left; 
+    padding: 15px;
+  }
+  
+  .footer__text-mail div {
+    width: 250px;
+    padding-left: 25px;
+    font-size: 18px;
+  }
 }
 
 /**** Small divices only ****/
