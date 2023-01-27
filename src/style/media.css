@@ -774,9 +774,16 @@ tr, td, th {
 /**** Extra-extra small divices only ****/
 @media (max-width: 650px) {
   body {
-    width: 100%;
+    width: auto;
     font-size: 14px;
   }
+
+  .header {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
   
   .header__bar {
     width: 10%;
@@ -855,8 +862,8 @@ tr, td, th {
   /*  container  */
   
   .container {
-    width: 100%;
-    padding-top: 58px;
+    width: 420px;
+    padding-top: 55px;
   }
   
   .column {
@@ -897,7 +904,7 @@ tr, td, th {
     height: 300px;
   
     position: relative;
-    left: 35%;
+    left: 25%;
   }
   
   .item__avatar-img {
@@ -905,7 +912,7 @@ tr, td, th {
     height: 300px;
   
     position: relative;
-    left: 25%;
+    left: 15%;
     top: -280px;
   }
   
@@ -944,11 +951,6 @@ tr, td, th {
     columns: 2;
     column-gap: 15px;
   }
-  /*   
-  .footer__row-icon {
-      width: auto;
-      height: 20px;
-  }  */
   
   .footer__row-bar.footer__row-bar-left {
     display: flex;
