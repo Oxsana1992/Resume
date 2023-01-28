@@ -761,14 +761,18 @@ tr, td, th {
     display: flex;
     align-items: left;
     justify-content: left; 
-    padding: 15px;
+    padding: 15px 0;
   }
   
   .footer__text-mail div {
     width: 200px;
-    padding-left: 25px;
+    padding-left: 0;
     font-size: 12px;
   }
+
+  .nav-button.button__email a {
+    font-size: 10px;
+}
 }
 
 /**** Extra-extra small divices only ****/
@@ -934,14 +938,6 @@ tr, td, th {
     width: 100%;
   }
   
-  /* .footer__row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
-  
-    margin: 0 20%;
-  } */
-  
 .footer__row-bar {
     display: flex;
     align-items: center;
@@ -963,7 +959,11 @@ tr, td, th {
   
   .footer__text-mail div {
     width: 180px;
-    padding-left: 25px;
+    padding-left: 5px;
     font-size: 12px;
   }
+
+  .nav-button.button__email a {
+    font-size: 10px;
+}
 }

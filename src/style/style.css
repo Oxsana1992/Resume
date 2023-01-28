@@ -194,3 +194,7 @@ th {
 button.button__email {
     cursor: default;
 }
+
+.nav-button.button__email a {
+    font-size: 16px;
+}
